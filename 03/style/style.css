@@ -1,0 +1,14 @@
+h1{
+    background-color: rgb(12, 151, 16);
+    font-size: 34px;  
+  }
+  p{
+      background-color: rgb(204, 6, 6);
+      font-size: 18px;
+  }
+  a{
+      display: inline-block;
+      margin: 50px 0;
+      padding: 10px;
+      background-color: rgb(228, 15, 139);
+  }

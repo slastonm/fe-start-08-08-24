@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Main page
+    </h1>
+    <a href="hw/hw.html">visit shoping list</a>
+    <table border="4" style="width: 100%;">
+        <thead>
+            <!-- <p></p> це помилка -->
+            <tr>
+                <!-- <span></span> це помилка -->
+                <th> <em>Name</em></th>
+                <th> <em>Last name</em></th>
+                <th> <em>Company</em></th>
+                <th>
+                    <em>
+                       Age 
+                    </em>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">Tom Soer</td>
+                <td rowspan="2"> <strong>Sony</strong></td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td colspan="2">Bob Smith</td>
+                <td>31</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Robinson</td>
+                <td></td>
+                <td>32</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- block tag -->
+     <h3>
+        Form tags
+     </h3>
+    <form>
+        <div>
+            <label for="username">
+                Usern name
+            </label>
+            <input placeholder="Type your name" id="username" type="text">
+        </div>
+        <h4>
+            password
+        </h4>
+        <div>
+            <label for="pass">
+                Usern password
+            </label>
+            <input id="pass" placeholder="Type strong password"  type="password">
+        </div>
+        <h3>
+            Select tag
+        </h3>
+        <div>
+            <label for="droplist">
+                Usern select
+            </label>
+            <select id="droplist">
+                <option value=""></option>
+                <option value="01">Користувачу подобається чорний колір</option>
+                <option disabled value="02">Користувачу подобається червоний колір</option>
+                <option disabled value="03">Користувачу подобається жовтий колір</option>
+                <option value="04">Користувачу подобається синій колір</option>
+
+            </select>
+        </div>
+        <h4>
+            Коментарі
+        </h4>
+        <div>
+            <label for="coment">
+                Коментар
+            </label>
+            <textarea id="coment" rows="10" cols="20" placeholder="напишіть коментар мінімум 10 слів"></textarea>
+        </div>
+        <h4>
+            Radio input Доставка
+        </h4>
+        <div>
+            <label for="np">
+                NP delivery
+            </label>
+            <input id="np" name="delivery"  type="radio">
+        </div>
+        <div>
+            <label for="ukpost">
+                Uk post
+            </label>
+            <input disabled id="ukpost" name="delivery"  type="radio">
+        </div>
+        <div>
+            <label for="self">
+                Забираю сам
+            </label>
+            <input id="self" name="delivery"  type="radio">
+        </div>
+        <h5>
+            Checkbox
+        </h5>
+        <div>
+            <label for="car">
+                Car
+            </label>
+            <input id="car" name="vehicle1"  type="checkbox">
+        </div>
+        <div>
+            <label for="train">
+                Train
+            </label>
+            <input id="train" name="vehicle2"  type="checkbox">
+        </div>
+        <div>
+            <label for="motorbike">
+                motorbike
+            </label>
+            <input id="motorbike" name="vehicle3"  type="checkbox">
+        </div>
+        <button>
+            Кнопка що відправить форму
+        </button>
+        <input type="submit" value="Відправити форму">
+    </form>
+
+    <a href="#">Link</a>
+    <button>
+        Кнопка
+    </button>
+    <h4>
+        Зображення
+    </h4>
+    <img src="img/smile.png" width="100" height="100" alt="смайл іконка">
+    <img src="img/smile2.png" alt="смайл іконка">
+    <audio controls>
+        <source src="mp3/file_MP3.mp3">
+    </audio>
+    <video controls width="520" height="440">
+        <source src="mp4/file_example_MP4.mp4" type="video/mp4">
+    </video>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, culpa perferendis magnam voluptates debitis vero obcaecati laboriosam unde minima amet temporibus dolore iste doloremque mollitia officia vitae. Rerum, laudantium nisi?
+    </p>
+    <iframe width="1200" height="500" src="https://getbootstrap.com/docs/5.3/components/dropdowns/#overview" frameborder="0"></iframe>
+    <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3mQzvZi5Vyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
