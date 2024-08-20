@@ -1,0 +1,133 @@
+*{
+    /* border: 2px solid black; */
+}
+
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 16px;
+}
+a{
+    font-size: 16px;
+    color: blue;
+}
+h1{
+    /* color:aliceblue; */
+    /* color: #c8e0f5; */
+    /* color: #000000; */
+    /* color: #000; */
+    /* color: #fff; */
+    /* color: #8b1010; */
+    /* color: rgb(216, 12, 12); */
+    color: rgba(216, 12, 12, 1);
+    background-color: orange;
+}
+h1{
+    background-color: blue;
+}
+h1{
+    background-color: rgb(168, 232, 7);
+}
+
+main section p{
+    background-color: lightcoral;
+}
+section p{
+    background-color: rgb(147, 147, 14);
+}
+p{
+    text-align: center;
+    background-color: beige;
+}
+/* h2{
+    background-color: blueviolet;
+}
+h3{
+    background-color: blueviolet;
+}
+h4{
+    background-color: blueviolet;
+} */
+
+/* DRY don't repeat yourself */
+/* ctrl + / cmnd +/ */
+#top{
+    background-color: rgb(8, 116, 60);
+}
+
+h2, h3, h4{
+    background-color: blueviolet;
+    color: white;
+}
+.center-content{
+    /* text-align: left; */
+    text-align: center;
+
+}
+
+/* .center-content.bold-text{
+    font-weight: bolder;
+} */
+.bold-text{
+    font-weight: bolder;
+}
+.right-content{
+    text-align: right;
+}
+.content-block h3{
+    font-size: 32px;
+}
+.content-block p{
+    font-size: 20px;
+}
+
+.content-block p{
+    color:orange
+}
+/* .content-block p+p{
+    color: blue;
+} */
+.content-block p+p+p{
+    color: blue;
+}
+
+/* a[href='#top']{
+    background-color: red;
+} */
+/* .target-link{
+    background-color: green;
+} */
+a[target='_blank']{
+    background-color: blueviolet;
+}
+
+/* 11 */
+li:last-child{
+    background-color: yellow;
+}
+li:nth-child(3){
+    background-color: rgb(89, 89, 89);
+}
+li:nth-child(5){
+    background-color: gray;
+}
+/* 11 */
+li:first-child{
+    background-color: blue;
+}
+a:hover{
+    background-color: black;
+    color: white;
+}
+li:hover{
+    color: rgb(153, 153, 153);
+}
+li:hover span{
+    color: rgb(185, 185, 11);
+    font-size: 20px;
+}
+
+li:empty{
+    background-color: red;
+}
