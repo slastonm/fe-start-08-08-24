@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    margin: 0;
+}
+
+.user-block{
+    width: 1812px;
+    height: 2812px;
+    padding-bottom: 600px;
+    /* padding: 50px; */
+    border: 2px solid black;
+    /* position: relative; */
+    /* background-image: url("img/avatar.png"),url('img/1.webp'); */
+    background-image: url("img/avatar.png");
+
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-position: center; */
+    /* background-position: top center; */
+    /* background-position: bottom center; */
+    /* background-position: top right; */
+    /* background-position: bottom left; */
+    /* background-position: top 50px left 300px; */
+
+    margin: 0 auto;
+    /* background-size: contain; */
+    /* background-size: cover; */
+
+}
+/* .user-block  img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+} */
+.sprite{
+    background-image: url('https://www.shutterstock.com/shutterstock/photos/2186445359/display_1500/stock-vector-pixel-game-trophy-cups-medals-with-loot-icons-and-elements-for-arcade-design-level-up-with-2186445359.jpg');    
+ }
+.user{
+    width: 100px;
+    height: 123px;
+    background-position: top -168px left -196px;
+}
+.user:hover{
+    background-position: top -168px left -378px;
+}
+.live{
+    width: 181px;
+    height: 100px;
+    background-position: top -693px left -308px;
+}
+main{
+    min-height: 100vh;
+    background-image: url('img/bg.jpeg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-attachment: scroll;
+
+}
+header,section{
+    padding: 50px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.67);
+    margin-bottom: 250px;
+}
+section:last-child{
+    margin-bottom: 0;
+}
