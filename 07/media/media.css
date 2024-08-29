@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: gray;
+}
+header{
+    background-color: green;
+    padding: 50px 0;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 50px;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    /* column-gap: 25px; */
+    /* flex-wrap: wrap; */
+    row-gap: 10px;
+}
+nav a{
+    font-size: 40px;
+    color: rgb(13, 1, 1);
+
+}
+nav a i{
+    color: rgb(25, 38, 207);
+}
+p{
+    font-size: 20px;
+}
+.icon-wraper{
+    text-align: center;
+    font-size: 100px;
+    color: red;
+    line-height: 1.2;
+}
+/* ctrl +shift + m */
+
+/* @media screen and (max-width:1400px) {
+    header{
+        background-color: rgb(14, 15, 14);
+        padding: 20px 0;
+    }
+    nav{
+        column-gap: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+} */
+/* @media(max-width:600px){
+    .container{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 50px;
+    }
+    header{
+        background-color: red;
+    }
+} */
+/* @media(min-width:700px){
+    header{
+        background-color: blueviolet;
+    }
+    .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media(min-width:1400px){
+    nav{
+        flex-direction: row;
+        row-gap: 0;
+        column-gap: 15px;
+    }
+} */
+@media screen 
+and (min-width:700px) 
+and (max-width:800px) {
+    header{
+        background-color: orange;
+    }
+}
+
+@media(1200px <= width <= 1330px){
+    header{
+        background-color: rgb(225, 6, 167);
+    }
+}
+
+@media print{
+    nav{
+        border: 2px solid black;
+    }
+    .logo{
+        border: 2px solid black;
+    }
+}
+
+@media (min-aspect-ratio: 19.5/9) {
+    div {
+      background: #9af; /* blue */
+    }
+}
+
+@media (max-aspect-ratio: 19.5/9) {
+    div {
+      background: rgb(137, 227, 3); 
+    }
+}
