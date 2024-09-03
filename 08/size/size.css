@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+/* 1em = font-size parent-elementa*/
+html{
+    /* font-size: 16px; */
+}
+body{
+    margin: 0;
+}
+/* body{
+    font-size: 15px;
+}
+h1{
+    font-size: 3em; 
+    /* 3*15px = 45px */
+/* } */
+/* p{
+    font-size: 1.5em;
+}
+.size-block{
+    font-size: 20px;
+    padding: 2em;
+    background-color: black;
+    color:white;
+    border: 1em solid red;
+    margin: 50px auto;
+    width: 20em;
+} 
+
+@media(max-width:1000px){
+    body{
+        font-size: 10px;
+        background-color: yellow;
+    }
+} */
+
+/* rem */
+h1{
+    /* 1rem = html font-size * 1rem */
+    font-size: 3rem;
+    /* 3*16px= 48px */
+    background-color: black;
+    padding: 1rem;
+    color: white;
+}
+p{
+    font-size: 1.5rem;
+}
+.size-block{
+    font-size: 2rem;
+    padding: 2rem;
+    background-color: black;
+    color:white;
+    border: 1rem solid red;
+    margin: 50px auto;
+    width: 20rem;
+    box-sizing: border-box;
+} 
+
+@media(max-width:1000px){
+    html{
+        font-size: 10px;
+    
+    }
+    body{
+        background-color: yellow;
+    }
+} 
+h2{
+    font-size: 24px;
+}
+p.fixed{
+    font-size: 20px;
+}
+/* vh vw */
+main{
+    width: 50%;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+section{
+    width: 50vw;
+    height: 100px;
+    background-color: red;
+}
+.container{
+    width: 50%;
+    background-color: gray;
+    margin: 0 auto;
+    min-height: 50vh;
+    font-size: 4rem;
+    /*  без box-sizing: border-box;  буден ширина чи висота + padding розміри*/
+
+}
+.full{
+    background-color: orange;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.full h1{
+    font-size: 3vw;
+}
