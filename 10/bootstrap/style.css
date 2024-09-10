@@ -1,0 +1,12 @@
+header{
+    background-color: green;
+}
+/* .wrapper{
+    margin: 0 auto;
+    width: 90%;
+} */
+
+.container.my-container{
+    width: 1500px;
+    /* background-image: url(); */
+}

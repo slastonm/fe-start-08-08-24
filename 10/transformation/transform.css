@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 250px;
+}
+button{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    padding: 20px 40px;
+    border:3px solid black;
+    opacity: 1;
+    transition: all 3s;
+    /* transition: color 3s, background-color 7s; */
+    /* transition-delay: 0.5s; */
+}
+button:hover{
+    /* transition: all 3s; */
+    background-color: yellow;
+    color: black;
+    /* width: 300px; */
+    /* overflow: hidden; */
+    /* display: none; не працює */
+    /* opacity: 0; */
+}
+
+.rotate:hover{
+    /* transform: rotate(45deg); */
+    /* transform: rotate(-95deg); */
+    rotate: 20deg;
+}
+.scale:hover{
+    /* padding: 40px 80px;
+    font-size: 40px; */
+    /* transform: scale(2); */
+    /* transform: scale(1,2); */
+    /* transform: scale(0.5,2); */
+    /* transform: scale(0.7); */
+    scale: 1.2 0.9
+}
+
+.translate:hover{
+    transform: translate(-10px, 0);
+}
+.skew:hover{
+    transform: skew(10deg, 11deg);
+}
+
+.super{
+    /* transform: rotate(45deg) scale(1.2) translate(50px, -20px); */
+}
+.super:hover{
+    transform: rotate(45deg) scale(1.2) translate(50px, -20px);
+}
+
+svg path{
+    stroke: black;
+}
+.nice-button:hover .path-el{
+    stroke-width: 3;
+    fill: green;
+}
